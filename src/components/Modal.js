@@ -14,7 +14,7 @@ const Modal = props => {
             >
                 <div className="header">{props.title}</div>
                 <div className="content">{props.content}</div>
-                {props.actions}
+                <div className="actions">{props.actions}</div>
             </div>
         </div>,
         document.querySelector('#modal')
