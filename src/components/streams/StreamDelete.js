@@ -13,7 +13,10 @@ class StreamDelete extends React.Component {
         return (
             <>
                 <button className="ui button negative">Delete</button>
-                <button className="ui button">Cancel</button>
+                <button
+                    onClick={() => history.push('/')}
+                    className="ui button">Cancel
+                </button>
             </>
         );
     }
